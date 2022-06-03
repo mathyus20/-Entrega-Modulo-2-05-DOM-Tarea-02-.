@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'League Gothic', sans-serif;
+    background-image: url(https://previews.123rf.com/images/schastnyi/schastnyi2005/schastnyi200500723/146500964-polvo-multicolor-abstracto-mezclado-sobre-fondo-blanco-congele-el-movimiento-del-polvo-de-color-conc.jpg);
+  
+  }
+
+  #containerPrueba{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+  }
+  @media screen and (max-width: 950px) {
+    .img,
+    .img {
+      width: 250px;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .img {
+      height: 120px;
+    }
+  }
